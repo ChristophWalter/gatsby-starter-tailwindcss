@@ -37,5 +37,20 @@ module.exports = {
         tailwind: true,
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Roboto`,
+            variants: [`100`, `400`],
+          },
+          {
+            family: `Merriweather`,
+            variants: [`300`],
+          },
+        ],
+      },
+    },
   ],
 }

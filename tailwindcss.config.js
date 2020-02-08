@@ -1,5 +1,10 @@
 module.exports = {
-  theme: {},
+  theme: {
+    fontFamily: {
+      headline: ["Roboto", "Arial", "sans-serif"],
+      body: ["Merriweather", "Georgia", "serif"],
+    },
+  },
   variants: {},
   plugins: [],
 }
